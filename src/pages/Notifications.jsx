@@ -1,0 +1,17 @@
+import React from 'react';
+import { Bell } from 'lucide-react';
+
+export const Notifications = () => {
+  return (
+    <div className="glass-card p-8 text-center space-y-3">
+      <div className="w-12 h-12 rounded-2xl bg-rose-50 text-rose-600 flex items-center justify-center mx-auto">
+        <Bell className="w-6 h-6" />
+      </div>
+      <h2 className="text-xl font-bold text-slate-800">Notifications & Alerts Center</h2>
+      <p className="text-xs text-slate-500 max-w-md mx-auto">
+        Ready for Phase 2 implementation. Features: Create Announcement, Placement Alerts, System Broadcasts & History Log.
+      </p>
+    </div>
+  );
+};
+export default Notifications;
